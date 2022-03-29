@@ -1,0 +1,81 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Krishna</servlet-name>
+  	<display-name>Krishna</display-name>
+  	<description></description>
+  	<servlet-class>com.razorpayExample.Krishna</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>insertm</servlet-name>
+  	<display-name>insertm</display-name>
+  	<description></description>
+  	<servlet-class>fms.Handler.insertm</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>InsertMechanic</servlet-name>
+  	<display-name>InsertMechanic</display-name>
+  	<description></description>
+  	<servlet-class>fms.Handler.InsertMechanic</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>HandleInsert</servlet-name>
+  	<display-name>HandleInsert</display-name>
+  	<description></description>
+  	<servlet-class>fms.Handler.HandleInsert</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>adminlogin</servlet-name>
+  	<display-name>adminlogin</display-name>
+  	<description></description>
+  	<servlet-class>fms.Handler.adminlogin</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>cancel</servlet-name>
+  	<display-name>cancel</display-name>
+  	<description></description>
+  	<servlet-class>fms.Handler.cancel</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>custR</servlet-name>
+  	<display-name>custR</display-name>
+  	<description></description>
+  	<servlet-class>fms.Handler.custR</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>slotR</servlet-name>
+  	<display-name>slotR</display-name>
+  	<description></description>
+  	<servlet-class>fms.Handler.slotR</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Krishna</servlet-name>
+  	<url-pattern>/Krishna</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet-mapping>
+  	<servlet-name>HandleInsert</servlet-name>
+  	<url-pattern>/HandleInsert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>adminlogin</servlet-name>
+  	<url-pattern>/adminlogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>cancel</servlet-name>
+  	<url-pattern>/cancel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>custR</servlet-name>
+  	<url-pattern>/custR</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>slotR</servlet-name>
+  	<url-pattern>/slotR</url-pattern>
+  </servlet-mapping>
+</web-app>
